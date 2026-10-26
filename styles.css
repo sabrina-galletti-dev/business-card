@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+  background-color: #c8a2c8; /* el lila rosado */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.business-card {
+  background-color: #fffeff; /* fondo blanco de la tarjeta */
+  width: 350px;
+  margin: 100px auto; /* ESTO la centra */
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+/* para que los links se vean separados */
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #8a4d8a;
+}
